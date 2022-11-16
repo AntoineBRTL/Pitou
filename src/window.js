@@ -18,6 +18,25 @@ class Window extends BrowserWindow {
         let html = "<body></body>"
         this.loadURL("data:text/html;charset=utf-8," + encodeURI(html));
     }
+
+    /**
+     * Display a sprite into the window.
+     * 
+     * @param {String} pathToSprite 
+     */
+    display(pathToSprite, width, height)
+    {
+        this.webContents.executeJavaScript(`
+            
+            const image = document.createElement("img");
+            image.src = "${pathToSprite}";
+            image.style.width = "${width}px";
+            image.style.height = "${height}px";
+
+            document.body.appendChild(image);
+        
+        `, true);
+    }
 }
 
 module.exports = {

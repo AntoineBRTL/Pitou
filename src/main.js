@@ -6,16 +6,11 @@ const {Pitou} = require('./pitou.js');
 
 class Main{
 
-    window;
     pitou;
+    pitou2;
 
     constructor(){
-        this.window = new Window();
-        this.pitou = new Pitou(new Vec3(1920/2 - 100, 1080/2 - 100), this.window);
-
-        this.window.webContents.on("did-finish-load", function(){
-            this.pitou.display();
-        }.bind(this));
+        this.pitou = new Pitou(new Vec3(1920/2 - 100, 1080/2 - 100));
     }
 }
 
