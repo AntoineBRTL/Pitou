@@ -1,0 +1,14 @@
+{
+  "name": "pitou---malware-2",
+  "version": "1.0.0",
+  "description": "Pitou !!",
+  "main": "./src/main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "author": "Antoinou",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^19.0.8"
+  }
+}
