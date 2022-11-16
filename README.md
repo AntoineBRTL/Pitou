@@ -17,7 +17,7 @@ Lila is his mother and Clony is his sister.
 
 or if you want an executable : 
 
-Note that if you are not on linux you need to modify the cpp file a little bit.
+Note that if you are not on windows you need to modify the cpp file a little bit.
 - Using a c++ compiler, compile `./src/launcher.cpp` - launcher of Pitou Malware - g++ command for windows : `g++ ./src/lancher.cpp ./launcher.exe ./rsrc.res`.
 
 ## Stop Pitou Malware ##
@@ -27,5 +27,5 @@ Note that if you are not on linux you need to modify the cpp file a little bit.
 
 or if you want an executable : 
 
-Note that if you are not on linux you need to modify the cpp file a little bit.
+Note that if you are not on windows you need to modify the cpp file a little bit.
 - Using a c++ compiler, compile `./src/killer.cpp` - quiter of Pitou Malware - g++ command for windows : `g++ ./src/killer.cpp ./killer.exe`.
