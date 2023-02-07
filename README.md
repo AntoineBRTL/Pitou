@@ -7,7 +7,7 @@ This program is written in Javascript and is made to run with [Electron](https:/
 
 ## How to use
 ### Disclaimer
-- This malware is for academic purposes, the use of this software is your responsibility.
+- This is for academic purposes, the use of this software is your responsibility.
 
 ### Use with Node.js
 1) Run `npm install`.
