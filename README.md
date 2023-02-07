@@ -3,7 +3,7 @@ Pitou is a visual malware developed for education purposes.
 
 This program is written in Javascript and is made to run with [Electron](https://www.electronjs.org/). Some libraries are required, [see](#libs) the list of libraries used in this project.
 
-![alt text](./Demo.PNG)
+![alt text](./demo.PNG)
 
 ## How to use
 ### Disclaimer
