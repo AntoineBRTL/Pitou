@@ -1,7 +1,7 @@
 # Pitou 
 Pitou is a visual malware developed for education purposes.
 
-This program is written in Typescript and is made to run with [Node.js](https://nodejs.org/). Some libraries are required, [see](#libs) the list of libraries used in this project.
+This program is written in Typescript and is made to run with [Electron](https://www.electronjs.org/). Some libraries are required, [see](#libs) the list of libraries used in this project.
 
 ![alt text](./Demo.PNG)
 
